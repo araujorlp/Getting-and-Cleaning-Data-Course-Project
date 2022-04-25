@@ -1,0 +1,13 @@
+---
+title: "README"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The NewDataAverage is a tidy dataset created from the UCI HAR Dataset. The UCI HAR Dataset is a dataset from an experiment called "Human Activity Recognition Using Smartphones Dataset". It involved 30 participants, or subjects, (identified in the NewData as ID) and each performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING), wearing a smartphone, which has an embedded Accelerator and Gyroscope, used to take various measurements (features). The total number of measurements taken, for all the participants and all the activities, was 561. 
+
+This original dataset was a group of various tables which were organized in order to be easier to understand and analysed. The NewDataAverage has 180 observations of 88 variables. The first two columns indicate the participant(subject), with an ID variable, which goes from 1 to 30, and an Activity column, which indicates which activity the participant was doing when taken the measurment (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying). The remaining 86 columns are all averages of 86 different measurements taken by each participant, doing each activity. Therefore, since there are 30 participants doing 6 activities, we have 180 observations. 
+
