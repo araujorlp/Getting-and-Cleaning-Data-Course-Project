@@ -73,7 +73,7 @@ Datatotal <- cbind(Subjecttotal, Ytotal, Xtotal)
   3.5) Using dplyr, selected just the ID and activity variables, as well as all the variables which contained mean or std in its name.
   
 
-```{r cars}
+```{}
 Datatotal <- Datatotal %>% select(ID, code, contains("mean"), contains("std"))
 
 ```
